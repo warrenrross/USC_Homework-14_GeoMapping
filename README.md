@@ -2,9 +2,14 @@
 **GeoMapping** homework for USC Data Analytics Bootcamp  
 The github repo for this code is located [here][1].
 
-## Unit 17 | Assignment - Visualizing Data with Leaflet
+### Useful Resources
+L controls tutorial [click here!][2]
 
-## Background
+[2]:https://usabilityetc.com/2016/06/how-to-create-leaflet-plugins/
+
+## Unit 17 | Visualizing Data with Leaflet
+
+### Background
 
 ![1-Logo](Images/1-Logo.png)
 
@@ -12,7 +17,7 @@ Welcome to the United States Geological Survey, or USGS for short! The USGS is r
 
 The USGS is interested in building a new set of tools that will allow them visualize their earthquake data. They collect a massive amount of data from all over the world each day, but they lack a meaningful way of displaying it. Their hope is that being able to visualize their data will allow them to better educate the public and other government organizations (and hopefully secure more funding..) on issues facing our planet.
 
-## Your Task
+### Task:
 
 ### Level 1: Basic Visualization
 
@@ -60,7 +65,7 @@ In this step we are going to..
 
 ### Assessment
 
-Your final product will be assessed on the following metrics:
+Final product assessed on the following metrics:
 
 * Completion of assigned tasks
 
@@ -68,7 +73,6 @@ Your final product will be assessed on the following metrics:
 
 * Professionalism
 
-**Good luck!**
 
 ## Copyright
 This selection of code is displayed by to Warren Ross @ [this GitHub][1].  
