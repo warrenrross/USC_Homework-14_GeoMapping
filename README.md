@@ -2,6 +2,13 @@
 **GeoMapping** homework for USC Data Analytics Bootcamp  
 The github repo for this code is located [here][1].
 
+- This project gives a display of earthquake data from the USGS api over the timespan of a month. It shows seismic activity over 2 on the richter scale.
+- Tooltips are generated for earthquake data when you hover over an earthquake location.
+- A timeline function is provided to see data populate in a time sequence. When the timeline is paused you are viewing a sample of data that is generated based on stepping through each seismic event data point.
+
+
+
+
 ### Useful Resources
 L controls tutorial [click here!][2]
 
