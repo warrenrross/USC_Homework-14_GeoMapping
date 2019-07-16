@@ -234,6 +234,7 @@ d3.json(API_quakes).then((geojsonData) => {
                   fillOpacity: 0.9,
               });
               },
+              onEachFeature: addPopupInfo,
           });
 
   // Pass the earthquake overlay layers, the timeline overlay layer and the
