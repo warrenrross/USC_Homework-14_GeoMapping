@@ -143,6 +143,7 @@ function addPopupInfo(feature, layer) {
 // Perform an API call to the USGS API to get earthquake information (past 30 days, 2.5+ magnitude and greater)
 //
 d3.json(API_quakes).then((geojsonData) => {
+  console.log(geojsonData);
 
   // Create a logarithmic color scale for filling the earthquake
   // markers. Set a default color for the ring around an earthquake
@@ -156,6 +157,7 @@ d3.json(API_quakes).then((geojsonData) => {
       magDomain = [1,magMinMax[1]]
       //Log number of features in the console. Keeping 'range' for future feature.
       console.log(range);
+      console.log(magMinMax)
   // Create a legend.
   var legend  = L.control({position: 'bottomright'}),
       magBins = d3.ticks(Math.floor(magMinMax[0]), magMinMax[1], Math.ceil(magMinMax[1] - magMinMax[0]));

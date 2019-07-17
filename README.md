@@ -2,18 +2,33 @@
 **GeoMapping** homework for USC Data Analytics Bootcamp  
 The github repo for this code is located [here][1].
 
-- This project gives a display of earthquake data from the USGS api over the timespan of a month. It shows seismic activity over 2 on the richter scale.
+### Important points:
+
+- This project is a Leaflet map with earthquake marker overlays. 
+- The source for the data is an API request to the United States Geological Survey (USGS). The link is [here][2]
+- This software requires a Mapbox access token in the static/js/config.js file. You can create a Mapbox account [here][3]  
+- The USGS api request is for data looking back at a timespan of a month. It shows seismic activity approximately over 2.5 on the richter scale.
+- Earthquake markers are sized and colored in relation to the magnitude of each event.
 - Tooltips are generated for earthquake data when you hover over an earthquake location.
 - A timeline function is provided to see data populate in a time sequence. When the timeline is paused you are viewing a sample of data that is generated based on stepping through each seismic event data point.
 - Timeline sample sizes are based on a list with in a relative time of current event being populated. It is hard coded in miliseconds in 'timelineLayer' in logic.js file approximately code line 225.
+- To **run visualization** you can either use:  
+ *  `python -m http.server` if you have python3
+ 	 - This will host the page at `localhost:8000` in your web browser.
+ *  **or** VS Code `Open with Live Server` (right click .html file).  
+ 	 - This will host the page in web browser at `localhost:5500` or next available port.
+- Timeline sequence implemented using the Timeline plugin.  
+	- available on the Leaflet [home page](https://leafletjs.com "leafletjs.com"), under the 'Plugins, Time & elevation' selections. Source code [here](https://github.com/skeate/Leaflet.timeline).
 
 
 
 
 ### Useful Resources
-L controls tutorial [click here!][2]
+L controls tutorial [click here!][3]
 
-[2]:https://usabilityetc.com/2016/06/how-to-create-leaflet-plugins/
+[2]: http://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php "USGS Link"
+[3]: https://www.mapbox.com.
+[4]: https://usabilityetc.com/2016/06/how-to-create-leaflet-plugins/
 
 ## Unit 17 | Visualizing Data with Leaflet
 
